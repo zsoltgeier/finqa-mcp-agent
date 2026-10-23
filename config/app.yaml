@@ -1,0 +1,13 @@
+model: qwen3:4b-q4_K_M
+ollama_url: http://127.0.0.1:11434
+num_ctx: 16384
+num_predict: 512
+temperature: 0
+seed: 20261023
+think: false
+max_tool_calls: 6
+timeout_seconds: 180
+max_repeat_calls: 2
+input_dir: data/inputs
+tokenizer_path: .runtime/tokenizer/tokenizer.json
+demonstrations_path: data/demonstrations.json

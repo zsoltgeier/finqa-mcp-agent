@@ -1,0 +1,10 @@
+name: finqa-mcp
+channels:
+  - defaults
+dependencies:
+  - python=3.11.17
+  - pip
+  - setuptools
+  - wheel
+  - pip:
+      - -r requirements.txt

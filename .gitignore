@@ -1,0 +1,35 @@
+# Publish only code, tests, installation and configuration files.
+# Local reports, experiments, downloads, models, logs and archives stay local.
+/.local/
+/*
+!/.gitignore
+!/README.md
+!/pyproject.toml
+!/requirements.txt
+!/environment.yml
+!/conda-linux-64.lock.txt
+!/config/
+!/src/
+!/tests/
+!/scripts/
+
+/config/*
+!/config/app.yaml
+!/config/finqa-source.json
+!/config/tokenizer.json
+!/config/ollama.json
+/src/*
+!/src/finqa_mcp/
+/tests/*
+!/tests/final/
+/scripts/*
+!/scripts/setup.sh
+!/scripts/start_ollama.sh
+!/scripts/install_ollama.py
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.env
+.env.*

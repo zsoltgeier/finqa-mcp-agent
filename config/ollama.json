@@ -1,0 +1,7 @@
+{
+  "version": "0.12.6",
+  "url": "https://github.com/ollama/ollama/releases/download/v0.12.6/ollama-linux-amd64.tgz",
+  "sha256": "de82adce2ab79235115d511ff22fcb099ac53b67127870f12b80198c033ec0a1",
+  "model": "qwen3:4b-q4_K_M",
+  "model_digest": "2bfd38a7daaf4b1037efe517ccb73d1a3bbd4822cf89f1a82be1569050a114e0"
+}
